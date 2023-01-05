@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+
+h1 {
+    background-color: lightskyblue;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+
+    border: 15px rgb(85, 135, 165) groove;
+/*     
+<border> = borda
+border-width: 15px;
+border-color: rgb(85, 135, 165);
+border-style: groove;   
+*/
+    padding: 10px 5px 5px 5px;
+/*
+<padding> = espaço entre o conteudo e a borda
+padding-top: 10px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+*/
+    margin: auto;
+/*
+<margin> = margem
+margin: auto;
+margin-top
+margin-right
+margin-bottom: 25px;
+margin-left
+*/
+    }
+
+a {
+    border-width: 5px;
+    border-style: ridge;
+    border-color: red;
+
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+p {
+    text-align: center;
+}

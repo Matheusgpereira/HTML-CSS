@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gruping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            margin: 0px;
+             }
+
+        header {
+            width: auto;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+               }
+        h1 {
+            font-size: 40px;
+            background-color: lightblue;
+            padding: 10px;
+            margin-top: 7px;
+            margin-bottom: 5px;
+            box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.47);
+            border-radius: 10px 0px 0px 0px;
+           }    
+        nav {
+            background-color: lightblue;
+            padding: 5px;
+            box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.47);
+            border-radius: 0px 0px 10px 0px;
+            }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: lighter;
+            margin-right: 30px;
+            padding: 2px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.283);
+        }
+        section > p {
+            background-color: lightblue;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            padding: 10px;
+                    }
+        article {
+            text-align: justify;
+            background-color: lightblue;
+            padding: 5px;
+                }
+        article > aside {
+            background-color: rgb(127, 162, 174);
+                        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+             }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 7px;
+               }
+        footer > p {
+            margin: 0px;
+                   }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        tags de agrupamento
+        <div></div>
+        <span></span>
+        cabeçalho = <header>
+        main = conteudo = <main>
+        rodape = <footer>
+    -->
+    <header>
+         <h1>meu site</h1>
+         <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+         </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esporte politica tecnologia</p>
+        </section>
+        <section id="artigo">
+            <article>
+                <h2>noticias sobre brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus exercitationem quos ducimus voluptatibus recusandae veniam in, sapiente reprehenderit eaque modi unde culpa repellat nam deleniti asperiores impedit doloremque repudiandae quisquam?</p>
+                <aside>
+                    <p>artigo escrito por mim</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por mim</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>medidas em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+        <p>tente abrir em diferentes dispositivos ou simplismente aumente ou diminua o tamanho do seu navegador </p>
+        <!--voce pode adaptar o tamanho da imagem para o tamanho da tela, usando o [<source>] voce define um limite para ele mudar a imagem para um tamanho mais adequado-->
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-P.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-M.png" type="image/png">
+            <img src="imagens/foto-G.png" alt="imagem flexivel">
+        </picture>
+    <h1>audio</h1>
+        <p>vamos reproduzir um audio no site</p>
+        <!-- essa aqui e a maneira simples de colocar um audio = [<audio src="media/bunny.mp3" [usando o parametro[controls] voce pode colocar um controle para "ligar" e "desligar" o audio] [usan a tag [autoplay] o audio iniciara sozinho]></audio>]-->
+            <audio preload="auto" autoplay controls>
+                <source src="media/bunny.mp3" type="audio/mpeg">
+                <source src="media/bunny.mp3" type="audio/ogg">
+                <source src="media/bunny.mp3" type="audio/wav">
+                <p>seu navegaro nao reproduz audio <a href="media/bunny.mp3">clique aqui</a> para baixar o audio.</p>
+            </audio>
+</html>

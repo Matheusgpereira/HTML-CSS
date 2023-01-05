@@ -1,0 +1,32 @@
+
+/*o "*" e uma classificação geral que vai ser aplicada em todo o codigo */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*o  "background-image: linear-gradient()" significa mudar o fundo para uma versao degrade */
+body{
+    background-image: linear-gradient(to right,#C2EFEB, #6EA4BF);
+}
+/*"border-radius:"* seria o contorno arredondado da figura/
+/*"box-shadow:"* controla as carqacteristicas da sombra que uma figura mostra no site/
+/*"width:"* seria a largura do texto aplicado/
+/*"padding:"* seria o tamanho da borda do texto em relação a figura/
+/*"margin:" controla a margem do texto com a borda da tela*/
+main{
+    background-color: #ECFEE8;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #40617296;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    color: #BF212E;
+}
+h2{
+    color: #190E4F;
+}
+p{
+    text-align: justify;
+}

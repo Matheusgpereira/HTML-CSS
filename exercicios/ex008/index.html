@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>formatação de texto</title>
+    <!--voce pode colocar uma tag "<style>mark{background-color}" no inicio na parte "head" do codigo que então todos os "mark's" do codigo irão ficar da mesma cor.-->
+    <style>mark{background-color: chartreuse;}</style> 
+</head>
+<body>
+    <h1>Principais formatações</h1>
+        <h2>Negrito- Destaque</h2>
+    <!-- voce pode ate colocar uma frase em negrito usando o "b", mas isso so muda o formato do texto, usando o "strong" você da um significado(semantica) para aquele texto, no HTML5 sempre procure usar a maneira mais "semantica".-->
+            <h3> <strong>Negrito</strong> </h3>
+                <p>nessa frase <b>temos um termo em negrito</b> usando a tag "b".ps: De maneira não semantica.</p>
+                <p>nessa frase <strong>temos um termo em negrito</strong>  usando a tag "strong".ps: Essa e uma maneira de colocar um texto em negrito de forma semantica.</p>
+    <!-- Aqui no italico e a mesma coisa, usar o "i" funciona, porém sempre devemos usar a maneira mais "semantica", no caso do italico seria o "em".-->
+            <h3> <em>Italico</em> </h3>
+                <p>nessa frase <i>temos um termo</i> em italico usando a tag "i".ps: De maneira não semantica.</p>
+                <p>nessa frase <em>temos um termo</em> em italico usando a tag "em".ps: Essa e uma maneira correta de usar o italico.</p>
+    <!--voce pode colocar uma marcação no texto uando a tag "mark", existe duas maneiras de mudar a cor dos textos a primeira voce coloca um "style="background-color"" dentro da tag "mark" exemplo:<mark>.-->
+        <h2>texto com marcação</h2>
+            <p>podemos crias <mark>um texto marcado</mark> usando a tag "mark"</p>
+            <p>podemos mudar a <mark style="background-color: red;">cor da marcação usando um "background-color"</mark> dentro da tag "mark"</p>
+    <!--podemos colocar textos grandes e pequenos na mesma ninha, usanto as tag's "big" e "small". ps: a tag "big" está sendo descontinuada.-->
+        <h2>texto grade e pequeno</h2>
+            <p>estamos criando <big>um texto grande</big> e <small>um texto pequeno</small> nesse paragrafo.</p>
+    <!--usando a tag "del" nos podemos marcar o texto com uma linha no meio, como se a informação nao devesse ser considerada.-->
+        <h2>texto deletado</h2>
+            <p>podemos marcar <del>um texto como excluido</del> para indicar que ele deve ser lido mas não considerado</p>
+    <!--o texto que tem uma ninha em baixo e o texto inserido, podemos marcar usando a tag "ins". ps: tambem podemos usar a tag "u" mas ela será descontinuada-->
+        <h2>texto inserido</h2>
+            <p>podemos marcar <ins>um texto como inserido</ins> para dar uma enfase e indicar que ele foi adicionado depois</p>
+            <p>existe tambem <u>um texto sublinhado</u> com a tag "U" (não semantica) </p>
+    <!--usamos a tag "sup" para colocar textos na parte de cima da linha, tipo quando colocamos um numero al quadrado.-->
+        <h2>texto sobescrito</h2>
+            <p>para inserir coisas do tipo "x<sup>2</sup>=3" </p>
+    <!--e o inverso do "sup", com o "sub" nos colocamos texto na parte de baixo-->
+        <h2>texto subscrio</h2>
+            <p>para enserir coisa como H<sub>2</sub>O</p>
+</body>
+</html>

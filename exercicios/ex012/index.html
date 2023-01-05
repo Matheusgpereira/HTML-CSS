@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>videos</title>
+</head>
+<body>
+    <h1>videos hospedados localmente</h1>
+        <p>este video esta ospedado no meu propio servidor</p>
+        <!-- essa e a maneira mais facil de hospedar um video = <video src="midia/video.mp4" controls [ essa tag configura a largura do video [width="500px"]]></video> -->
+        <!--pode se fazer como as im,agens e colocar varios [<source>] para cada tipo ve video que possar ser-->
+        <video width="500px" height="300" controls loop>
+            <source src="midia/video.mp4" type="">
+        </video>
+    <!--e recomendavel usar videos hospedados em um servidor separado como o youtube, videos hospedados no propio site usam mais banda, logo e mais caro de se manter.-->
+    <h1>inserindo videos do youtube</h1>
+        <p>esse video esta sendo rodado direto do youtube</p>
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

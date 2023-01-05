@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/idroid') format('opentype');
+}
+/*"root" serve para definir padroes no codigo*/
+:root {
+    --cor0: #84E1AD;
+    --cor1: #1A5C38;
+    --cor2: #ffffff;
+
+    --font-padrao: arial, verdana, Helvetica, sans-serif;
+    --font-destaque: 'Fuzzy Bubbles', cursive;
+    --font-android: 'android', cursive;
+}
+
+/*
+    O "*" serve para adicionar as caracteristicas em todos os elemento
+    * {
+    margin: 0px;
+    padding: 0px;
+}
+*/
+
+body {
+    background-color: #84E1AD;
+
+    font-size: 18px;
+    font-family: var(--font-padrao);
+
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+header {
+    background-image: linear-gradient(#1A5C38 55%, #24814e);
+
+    margin: 0px;
+    padding: 10px;
+}
+
+header > h1 {
+    color: white;
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: var(--font-destaque);
+
+    margin: 5px;
+    padding: 0px;
+}
+
+header > p {
+    color: white;
+
+    text-align: center;
+}
+
+header > nav > a {
+    color: white;
+
+    text-decoration: none;
+    transition-duration: .5s;
+    
+    margin: 10px 7px;
+    padding: 5px;
+}
+
+header > nav > a:hover {
+    background-color: #84E1AD;
+    color: #1A5C38;
+
+    border-radius: 7px;
+}
+
+main {
+    margin: auto;
+    padding: 0px;
+}
+
+main > article {
+    background-color: white;
+
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 10px 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.357);
+}
+
+main > article > h1 {
+    color: #1A5C38;
+
+    font-size: 30px;
+    font-weight: lighter;
+
+    margin: 0px;
+    padding: 5px;
+}
+
+main > article > h2 {
+    color: #1A5C38;
+    background-image: linear-gradient( to right, #84E1AD, white 80%);
+
+    font-weight: lighter;
+
+    margin: 0px;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+main > article > p {
+    text-align: justify;
+    text-indent: 40px;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+main > article > p > a {
+    color: #1A5C38;
+
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main > article > p > a:hover {
+    color: white;
+    background-color: #24814e;
+
+    margin: 0px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+main > article > section.I {
+    display: block;
+    margin: auto;
+}
+
+main > article > div.V {
+    background-color: #1A5C38;
+
+    margin: 10px;
+    border-radius: 15px;
+    position: relative;
+    padding-bottom: 58%;
+}
+
+main > article > div.V > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+main > article > aside {
+    background-color: #84e1ac84;
+
+    margin: 0px;
+    padding: 0px;
+    border-radius: 15px;
+}
+
+main > article > aside > h2 {
+    color: white;
+    background-color: #1A5C38;
+
+    margin: 0px;
+    padding: 5px 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+main > article > aside > p {
+    text-align: justify;
+    text-indent: 30px;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+main > article > aside > p > a {
+    color: #1A5C38;
+
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main > article > aside > p > a:hover {
+    color: white;
+    background-color: #24814e;
+
+    margin: 0px;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+main > article > aside > ul {
+    columns: 2;
+
+    list-style-type: '\2714';
+}
+
+main > article > aside > ul > li > abbr {
+    text-decoration: none;
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer > p {
+    color: white;
+    background-color: #1A5C38;
+
+    text-align: center;
+    font-weight: lighter;
+
+    margin: 0px;
+    padding: 10px 0px;
+}
