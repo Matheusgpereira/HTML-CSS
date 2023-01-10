@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    padding: 20px 10px 5px 10px;
+}
+header > p {
+    font-size: 20px;
+    padding: 5px 10px 15px 10px;
+}
+main > section {
+    font-family: 'Sriracha', cursive;
+}
+main > section > p#p1 {
+    background-color: white;
+}
+
+footer {}
