@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    padding: 20px 10px 5px 10px;
+}
+header > p > a {
+    color: white;
+
+    text-decoration: none;
+
+    padding: 5px 10px 15px 10px;
+}
+header > p > a {
+    color: white;
+
+    font-size: 20px;
+    padding: 5px 10px 15px 10px;
+}
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+
+main > article > div {
+    font-family: 'Sriracha', cursive;
+    font-size: 46px;
+
+    padding: 10px 5px 70px 10px;
+}
+
+main > article > div > p {
+    margin: 0px 800px 0px 0px;
+}
+
+main > article > section {
+    font-family: 'Sriracha', cursive;
+    font-size: 46px;
+
+    padding: 10px 100px 70px 10px;
+}
+
+main > article > section > p {
+    margin: 0px 700px 0px 0px;
+}
+
+main > article > section {
+    padding: 50px 100px 50px 10px;
+
+    background-image: url("imagens/background001.jpg");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-attachment: fixed;
+}
+
+main > article > section > p {
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+main > article > article {
+    font-family: 'Sriracha', cursive;
+    font-size: 46px;
+
+    padding: 10px 100px 70px 10px;
+}
+
+main > article > article > p {
+    margin: 0px 700px 0px 0px;
+}
+
+main > article > article {
+    padding: 50px 100px 50px 10px;
+
+    background-image: url("imagens/background002.jpg");
+    background-repeat: no-repeat;
+    background-position: 70%;
+    background-attachment: fixed;
+}
+
+main > article > article > p {
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+footer {
+    background-color: black;
+
+    text-align: center;
+}
+footer > p {
+    color: white;
+
+    font-size: 18px;
+
+    padding: 10px;
+}
