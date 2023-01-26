@@ -9,9 +9,23 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+        caption {
+            background-color: lightgrey;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
         table {
             border-collapse: collapse;
             width: 500px;
+            position: relative;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+        }
+        tbody > tr:nth-child(2n){ /*(nth-child(n) = isso faz com que o style so seja aplicavel em certas linhas, se eu colocar 2n significa que ele so palicra o style de duas em duas linhas, se eu colocar odd ele ira aplicar so nas linhas impares, e even so aplica nas linhas pares.)*/
+            background-color: lightgray;
         }
         th {
             padding: 8px;
@@ -31,20 +45,24 @@
     <h1>uso de tabelas grandes</h1>
     <!--
         anatomia das tabelas grandes
-        table
-            theader
+            capition(titulo da tabela)
+            table(tabela em sí)
+            theader(parte de cima da tabela)
+            tr,td,th = tr(linha) th(identificação das colunas) td(dados da tabela)
+            tbody(corpo da tabela )
             tr,td,th
-            tbody
+            tfoot(parte final da tabela)
             tr,td,th
-            tfoot
-            tr,td,th
+
+            (scope="") = a oque isso se relaciona, col é igual a coluna e row é igual a linha.
     -->
     <table>
+        <caption>população dos estados Brasileiros</caption>
         <thead>
             <tr>
-                <th>posição</th>
-                <th>unidade federativa</th>
-                <th>população</th>
+                <th scope="col">posição</th>
+                <th scope="col">unidade federativa</th>
+                <th scope="col">população</th>
             </tr>
         </thead>
         <tbody>
@@ -123,10 +141,40 @@
                 <td>Amazonas</td>
                 <td class="num">3 483 985</td>
             </tr>
+            <tr>
+                <td>16°</td>
+                <td>Mato Grosso</td>
+                <td>3 035 122</td>
+            </tr>
+            <tr>
+                <td>17°</td>
+                <td>Rio Grande do Norte</td>
+                <td>3 168 027</td>
+            </tr>
+            <tr>
+                <td>18°</td>
+                <td>Piaui</td>
+                <td>3 118 360</td>
+            </tr>
+            <tr>
+                <td>19°</td>
+                <td>alagoas</td>
+                <td>3 120 494</td>
+            </tr>
+            <tr>
+                <td>20°</td>
+                <td>Distrito Federal</td>
+                <td>2,923,369</td>
+            </tr>
+            <tr>
+                <td>21°</td>
+                <td>Mato Grosso do Sul</td>
+                <td>2 449 024</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td class="num"><strong>muito</strong></td>
             </tr>
         </tfoot>
