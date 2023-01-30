@@ -47,14 +47,19 @@ body {
     max-height: 250px;
   }
 
-  div >input.primeirovalor {
+  div > input {
     background-color: #14437D;
+
+    border: 1px solid rgba(255, 255, 255, 0.061);
+
+    padding: 10px;
+    margin: 5px;
   }
-  
-   div > input.segundovalor {
 
-  }
+  input.conversor {
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bolder;
 
-  div > input.conversor {
-
+    color: white;
   }
