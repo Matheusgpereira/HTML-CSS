@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
@@ -41,4 +45,14 @@ body {
   
   img {
     max-height: 250px;
+    position: static;
   }
+  /*input {
+    background-color: #14437D;
+
+    border: 1px solid black;
+
+    position: relative;
+    top: 30px;
+    right: 150px;
+  }*/
