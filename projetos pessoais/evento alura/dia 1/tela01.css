@@ -45,14 +45,16 @@ body {
   
   img {
     max-height: 250px;
-    position: static;
   }
-  /*input {
+
+  div >input.primeirovalor {
     background-color: #14437D;
+  }
+  
+   div > input.segundovalor {
 
-    border: 1px solid black;
+  }
 
-    position: relative;
-    top: 30px;
-    right: 150px;
-  }*/
+  div > input.conversor {
+
+  }
